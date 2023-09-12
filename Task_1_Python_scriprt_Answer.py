@@ -61,6 +61,7 @@ def save_file(text):
 	# Code here - write a file using with (2 lines)
 	with open(f'scraped_articles/{name}.txt','w') as file:
 		file.write(" Web Scraping assignment-Simran Modi")
+		file.write(text)
 	# Code ends here
 
 	print(f'File saved in directory {fname}')
