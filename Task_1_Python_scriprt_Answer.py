@@ -6,8 +6,8 @@ import requests
 import re
 # Code here - Import BeautifulSoup library
 from bs4 import BeautifulSoup
-
 # Code ends here
+
 import sys
 
 
@@ -60,7 +60,7 @@ def save_file(text):
 	
 	# Code here - write a file using with (2 lines)
 	with open(f'scraped_articles/{name}.txt','w') as file:
-		file.write(" Web Scraping assignment-Simran Modi")
+		file.write(text)
 	# Code ends here
 
 	print(f'File saved in directory {fname}')
